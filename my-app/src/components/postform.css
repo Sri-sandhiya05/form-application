@@ -1,0 +1,67 @@
+.post-form {
+  background: #1e1e2f;
+  padding: 2rem;
+  margin-top: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.post-form h3 {
+  text-align: center;
+  color: #0ff;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-shadow: 0 0 6px #0ff;
+}
+
+.post-form label {
+  display: block;
+  margin: 0.5rem 0 0.3rem;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #0ff;
+  background: #2a2a3d;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.post-form input:focus,
+.post-form textarea:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 5px #0ff;
+  outline: none;
+}
+
+.post-form button {
+  background: linear-gradient(135deg, #00ffff, #0077ff);
+  color: #000;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 0 10px #0ff;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-form button:hover {
+  background: linear-gradient(135deg, #00ccff, #0055ff);
+  box-shadow: 0 0 15px #0ff;
+}
